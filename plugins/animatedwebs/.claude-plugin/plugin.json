@@ -2,9 +2,20 @@
   "name": "animatedwebs",
   "version": "1.0.0",
   "description": "Build bold, cinematic websites with AnimatedWebs prompts: video heroes, WebGL and motion — pick a template, pull its prompt and build it, right from Claude Code.",
-  "author": { "name": "AnimatedWebs (Like a King Inc.)", "url": "https://animatedwebs.com" },
+  "author": {
+    "name": "AnimatedWebs (Like a King Inc.)",
+    "url": "https://animatedwebs.com"
+  },
   "homepage": "https://animatedwebs.com",
   "repository": "https://github.com/iboss21/animatedwebs-claude",
   "license": "Proprietary",
-  "keywords": ["website", "landing page", "webgl", "animation", "design", "mcp"]
+  "keywords": [
+    "website",
+    "landing page",
+    "webgl",
+    "animation",
+    "design",
+    "mcp"
+  ],
+  "privacyPolicyUrl": "https://animatedwebs.com/privacy"
 }
