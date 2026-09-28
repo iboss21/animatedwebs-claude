@@ -17,5 +17,9 @@
     "design",
     "mcp"
   ],
-  "privacyPolicyUrl": "https://animatedwebs.com/privacy"
+  "privacyPolicyUrl": "https://animatedwebs.com/privacy",
+  "displayName": "AnimatedWebs",
+  "supportUrl": "https://animatedwebs.com/contact",
+  "documentationUrl": "https://animatedwebs.com/mcp",
+  "termsOfServiceUrl": "https://animatedwebs.com/terms"
 }
