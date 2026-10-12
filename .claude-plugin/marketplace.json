@@ -11,8 +11,8 @@
     {
       "name": "animatedwebs",
       "source": "./plugins/animatedwebs",
-      "description": "Build bold, cinematic websites with AnimatedWebs: templates, UI components, design styles and Design Studio, straight from Claude Code.",
-      "version": "1.1.0",
+      "description": "Build bold, cinematic websites with AnimatedWebs: templates, cinematic video backgrounds, UI components, design styles and Design Studio.",
+      "version": "1.2.0",
       "homepage": "https://animatedwebs.com",
       "category": "design",
       "keywords": [

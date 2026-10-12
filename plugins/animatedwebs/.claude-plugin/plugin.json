@@ -1,7 +1,7 @@
 {
   "name": "animatedwebs",
-  "version": "1.1.0",
-  "description": "Build bold, cinematic websites with AnimatedWebs: animated templates, UI components, design styles and the Design Studio, straight from Claude Code.",
+  "version": "1.2.0",
+  "description": "Build bold, cinematic websites with AnimatedWebs: animated templates, cinematic video backgrounds, UI components, design styles and Design Studio, straight from Claude Code.",
   "author": {
     "name": "AnimatedWebs",
     "url": "https://animatedwebs.com"
@@ -17,7 +17,8 @@
     "design",
     "design system",
     "ui components",
-    "mcp"
+    "mcp",
+    "video backgrounds"
   ],
   "privacyPolicyUrl": "https://animatedwebs.com/privacy",
   "displayName": "AnimatedWebs",
