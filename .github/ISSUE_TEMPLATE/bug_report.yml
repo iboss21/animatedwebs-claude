@@ -1,0 +1,32 @@
+name: Bug report
+description: Something in the plugin or MCP server is not working as expected.
+labels: [bug]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Plugin version
+      placeholder: "1.2.1"
+    validations:
+      required: true
+  - type: dropdown
+    id: client
+    attributes:
+      label: Client
+      options: [Claude Code, Cursor, Codex, VS Code, Windsurf, Antigravity, Other]
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you expected, what happened instead, and any error message.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Run /animatedwebs:site ...
+        2. ...

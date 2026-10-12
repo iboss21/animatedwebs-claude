@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Support
+    url: https://animatedwebs.com/contact
+    about: Questions about your account, plan or billing.
+  - name: Documentation
+    url: https://animatedwebs.com/mcp
+    about: Setup guides for Claude Code, Cursor, Codex, VS Code, Windsurf and Antigravity.
+  - name: Report a security issue
+    url: https://animatedwebs.com/contact
+    about: Please report vulnerabilities privately, not in a public issue.

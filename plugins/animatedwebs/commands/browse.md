@@ -1,6 +1,6 @@
 ---
-description: Browse AnimatedWebs templates by style or industry
-argument-hint: <style or industry, e.g. "dark hypercar", "AI agents", "luxury restaurant">
+description: "Browse AnimatedWebs templates by style or industry"
+argument-hint: "<style or industry, for example: dark particle scene, boutique hotel, fintech>"
 ---
 
-Search AnimatedWebs for templates matching "$ARGUMENTS" with the `animatedwebs` MCP (`search_templates`). List the best 6 as a short table: name, what it looks like in one line, Free or Pro, and the live-demo link. Don't build anything yet.
+Search AnimatedWebs for templates matching "$ARGUMENTS" with `search_templates`. List the best 6 in a short table: name, a one-line description of the look, Free or Pro, and the live-demo link. Do not build anything yet.

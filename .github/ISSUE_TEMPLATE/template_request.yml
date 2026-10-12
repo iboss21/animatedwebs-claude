@@ -1,0 +1,16 @@
+name: Template request
+description: Suggest a template, background or component you would like to see on AnimatedWebs.
+labels: [template-request]
+body:
+  - type: input
+    id: kind
+    attributes:
+      label: What would you like?
+      placeholder: "A cinematic site for a boutique architecture studio"
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Industry, mood, motion, sections or reference sites (for inspiration only).

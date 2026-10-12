@@ -1,11 +1,11 @@
 ---
 name: animatedwebs-style
-description: Give a project a coherent, premium visual style using AnimatedWebs design systems: colour tokens, type scale, radius and buttons as DESIGN.md, Tailwind theme or CSS variables. Use when the user asks for a design system, colour palette, typography, "make it look like a top-tier site", or a style direction.
+description: "Give a project a coherent, premium visual style from AnimatedWebs design systems, covering colour tokens, type scale, radius and buttons, exported as DESIGN.md, a Tailwind theme or CSS variables. Use when the user asks for a design system, colour palette, typography or style direction, or wants a site to look top-tier."
 ---
 
 # Apply an AnimatedWebs style
 
-1. **Pick a direction.** Use `search_styles` to browse style references by mood, font, colour or theme, or `search_templates` if a full animated template fits better. Show 3 options with their links.
-2. **Pull the system.** `get_style_reference` returns the DESIGN.md, Tailwind v4 theme and CSS variables for a style. Templates carry the same exports on their page.
-3. **Apply it as tokens**, not one-off values: wire the colours, fonts, radius and button styles into the project's theme (Tailwind config, CSS variables or design tokens), then update components to use them.
-4. **Keep it original.** Style references describe a look; never copy another company's logo, images, copy or trademarks.
+1. **Pick a direction.** Call `search_styles` to browse style references by mood, typeface, colour or theme, or `search_templates` when a full animated template fits better. Show 3 options with their links.
+2. **Pull the system.** `get_style_reference` returns the DESIGN.md, Tailwind v4 theme and CSS variables for a style. Every template page offers the same exports.
+3. **Apply it as tokens**, not one-off values. Wire colours, fonts, radius and button styles into the project's theme (Tailwind configuration, CSS variables or design tokens), then update components to use them.
+4. **Keep the work original.** A style reference describes a look. Never copy another company's logo, imagery, copy or trademarks.

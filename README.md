@@ -6,7 +6,7 @@
   <a href="https://animatedwebs.com/mcp"><img src="assets/badges/claude-code.svg" alt="Claude Code plugin" height="28"></a>
   <a href="https://animatedwebs.com/mcp"><img src="assets/badges/mcp.svg" alt="MCP: 22 tools" height="28"></a>
   <a href="https://animatedwebs.com/templates"><img src="assets/badges/templates.svg" alt="1,200+ templates" height="28"></a>
-  <a href=".claude-plugin/marketplace.json"><img src="assets/badges/version.svg" alt="Version 1.2.0" height="28"></a>
+  <a href=".claude-plugin/marketplace.json"><img src="assets/badges/version.svg" alt="Version 1.2.1" height="28"></a>
   <a href="https://animatedwebs.com"><img src="assets/badges/status.svg" alt="Status: live" height="28"></a>
 </p>
 
@@ -145,11 +145,13 @@ Details are in the [Privacy Policy](https://animatedwebs.com/privacy).
 
 ## Support
 
-Questions, bugs and template requests: [animatedwebs.com/contact](https://animatedwebs.com/contact). You can also request a template from inside Claude with the `request_template` tool.
+Questions and account help: [animatedwebs.com/contact](https://animatedwebs.com/contact). Bugs and template requests: [open an issue](https://github.com/iboss21/animatedwebs-claude/issues/new/choose). Security reports: see [SECURITY.md](SECURITY.md). You can also request a template from inside Claude with the `request_template` tool.
 
 ## Legal
 
 AnimatedWebs templates, prompts, demos and media are licensed under the [AnimatedWebs Terms](https://animatedwebs.com/terms). The plugin manifest and skills in this repository are provided for use with the AnimatedWebs service.
+
+Release notes are in [CHANGELOG.md](CHANGELOG.md) and the repository licence is in [LICENSE.md](LICENSE.md).
 
 Claude and Claude Code are trademarks of Anthropic, PBC. Other names mentioned belong to their respective owners.
 

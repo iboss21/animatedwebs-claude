@@ -5,24 +5,27 @@
     "url": "https://animatedwebs.com"
   },
   "metadata": {
-    "description": "AnimatedWebs for Claude Code: animated website templates, UI components, design styles and the AnimatedWebs MCP."
+    "description": "The official AnimatedWebs marketplace for Claude Code.",
+    "version": "1.2.1"
   },
   "plugins": [
     {
       "name": "animatedwebs",
       "source": "./plugins/animatedwebs",
-      "description": "Build bold, cinematic websites with AnimatedWebs: templates, cinematic video backgrounds, UI components, design styles and Design Studio.",
-      "version": "1.2.0",
+      "description": "Build cinematic, animated websites from Claude Code: 1,200+ AnimatedWebs templates with live demos, cinematic video backgrounds, animated UI components, design systems and Design Studio, through a 22-tool MCP server.",
+      "version": "1.2.1",
       "homepage": "https://animatedwebs.com",
       "category": "design",
       "keywords": [
         "website",
         "landing page",
+        "templates",
         "webgl",
+        "three.js",
         "animation",
-        "design",
-        "design system",
+        "video backgrounds",
         "ui components",
+        "design system",
         "mcp"
       ]
     }

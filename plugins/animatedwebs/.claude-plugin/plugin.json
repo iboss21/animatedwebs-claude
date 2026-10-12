@@ -1,7 +1,7 @@
 {
   "name": "animatedwebs",
-  "version": "1.2.0",
-  "description": "Build bold, cinematic websites with AnimatedWebs: animated templates, cinematic video backgrounds, UI components, design styles and Design Studio, straight from Claude Code.",
+  "version": "1.2.1",
+  "description": "Build cinematic, animated websites from Claude Code: 1,200+ AnimatedWebs templates with live demos, cinematic video backgrounds, animated UI components, design systems and Design Studio, through a 22-tool MCP server.",
   "author": {
     "name": "AnimatedWebs",
     "url": "https://animatedwebs.com"
@@ -12,13 +12,14 @@
   "keywords": [
     "website",
     "landing page",
+    "templates",
     "webgl",
+    "three.js",
     "animation",
-    "design",
-    "design system",
+    "video backgrounds",
     "ui components",
-    "mcp",
-    "video backgrounds"
+    "design system",
+    "mcp"
   ],
   "privacyPolicyUrl": "https://animatedwebs.com/privacy",
   "displayName": "AnimatedWebs",
