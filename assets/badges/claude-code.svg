@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="184" height="28" viewBox="0 0 184 28" role="img" aria-label="Claude Code: Plugin">
+<title>Claude Code: Plugin</title>
+<defs>
+<linearGradient id="edge" x1="0" x2="1"><stop offset="0" stop-color="#7d5bff" stop-opacity=".9"/><stop offset="1" stop-color="#7d5bff" stop-opacity=".25"/></linearGradient>
+<linearGradient id="sheen" gradientUnits="userSpaceOnUse" x1="-80" x2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".22"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+<animateTransform attributeName="gradientTransform" type="translate" values="0 0;344 0;344 0" keyTimes="0;.45;1" dur="4s" repeatCount="indefinite"/></linearGradient>
+<clipPath id="r"><rect width="184" height="28" rx="14"/></clipPath>
+</defs>
+<g clip-path="url(#r)">
+<rect width="184" height="28" fill="#0b0a14"/>
+<rect x="111" width="73" height="28" fill="#7d5bff" fill-opacity=".16"/>
+<rect width="184" height="28" fill="url(#sheen)"/>
+</g>
+<rect x=".5" y=".5" width="183" height="27" rx="13.5" fill="none" stroke="url(#edge)"/>
+<circle cx="14" cy="14" r="3" fill="#7d5bff"/>
+
+<g font-family="JetBrains Mono,SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5" font-weight="600">
+<text x="24" y="18.2" fill="#a9a4c4" letter-spacing=".6">CLAUDE CODE</text>
+<text x="124" y="18.2" fill="#ffffff">Plugin</text>
+</g>
+</svg>
