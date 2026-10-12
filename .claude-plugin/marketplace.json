@@ -1,16 +1,30 @@
 {
   "name": "animatedwebs",
-  "owner": { "name": "AnimatedWebs (Like a King Inc.)", "url": "https://animatedwebs.com" },
-  "metadata": { "description": "Premium animated website prompts and the AnimatedWebs MCP for Claude Code." },
+  "owner": {
+    "name": "AnimatedWebs",
+    "url": "https://animatedwebs.com"
+  },
+  "metadata": {
+    "description": "AnimatedWebs for Claude Code: animated website templates, UI components, design styles and the AnimatedWebs MCP."
+  },
   "plugins": [
     {
       "name": "animatedwebs",
       "source": "./plugins/animatedwebs",
-      "description": "Build bold, cinematic websites with AnimatedWebs prompts: video heroes, WebGL, motion — straight from Claude Code.",
-      "version": "1.0.0",
+      "description": "Build bold, cinematic websites with AnimatedWebs: templates, UI components, design styles and Design Studio, straight from Claude Code.",
+      "version": "1.1.0",
       "homepage": "https://animatedwebs.com",
       "category": "design",
-      "keywords": ["website", "landing page", "webgl", "animation", "design", "mcp"]
+      "keywords": [
+        "website",
+        "landing page",
+        "webgl",
+        "animation",
+        "design",
+        "design system",
+        "ui components",
+        "mcp"
+      ]
     }
   ]
 }

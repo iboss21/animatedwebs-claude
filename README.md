@@ -1,6 +1,6 @@
 # AnimatedWebs for Claude Code
 
-Build bold, cinematic websites — video heroes, WebGL, motion — with [AnimatedWebs](https://animatedwebs.com) prompts, right inside Claude Code.
+Build bold, cinematic websites with [AnimatedWebs](https://animatedwebs.com) right inside Claude Code: animated templates, UI components, design styles and Design Studio.
 
 ## Install
 
@@ -9,20 +9,32 @@ Build bold, cinematic websites — video heroes, WebGL, motion — with [Animate
 /plugin install animatedwebs@animatedwebs
 ```
 
-The first time a tool runs, Claude Code opens your browser to sign in to AnimatedWebs (free account). Free templates work straight away; Pro prompts come with a $29 10-prompt pack or Pro — see [pricing](https://animatedwebs.com/pricing).
+The first time a tool runs, Claude Code opens your browser to sign in to AnimatedWebs (a free account works). Free templates are open straight away; Pro unlocks everything. See [pricing](https://animatedwebs.com/pricing).
 
-## Use
+## Commands
 
-- `/animatedwebs:site Vortex Customs — premium RedM & FiveM assets` — builds the whole site
-- `/animatedwebs:browse dark hypercar` — shows matching templates with live demos
-- `/animatedwebs:hero space` — gives your current site a cinematic hero
+| Command | What it does |
+|---|---|
+| `/animatedwebs:site <business>` | Picks the best template and builds the whole site |
+| `/animatedwebs:browse <style>` | Shows matching templates with live demos |
+| `/animatedwebs:hero <idea>` | Gives your current site a cinematic hero |
+| `/animatedwebs:component <idea>` | Adds an animated UI component |
+| `/animatedwebs:style <mood>` | Applies a design style as tokens |
+| `/animatedwebs:design` | Connects AnimatedWebs Design Studio |
 
-Or just ask: *"build me a premium landing page for my bakery"* — the `animatedwebs-site` skill takes it from there.
+Or just ask: *"build me a premium landing page for my bakery"* and the right skill takes it from there.
 
 ## What's inside
 
-- **MCP server** `https://mcp.animatedwebs.com` (OAuth sign-in): `search_templates`, `get_template`, `get_template_prompt`, `list_categories`
-- **Skills:** `animatedwebs-site`, `animatedwebs-hero`
-- **Commands:** `/animatedwebs:site`, `/animatedwebs:browse`, `/animatedwebs:hero`
+- **MCP server** `https://mcp.animatedwebs.com` (browser sign-in) with 20 tools:
+  - Templates: `search_templates`, `get_template`, `get_template_prompt`, `list_categories`, `open_in_builder`, `request_template`
+  - UI Library: `search_components`, `list_component_categories`, `get_component`, `get_component_source`, `generate_component`, `refine_component`
+  - Styles: `search_styles`, `get_style_reference`
+  - Design: `get_design_workspace`
+  - Account and community: `search_everything`, `get_account`, `get_pricing`, `search_creators`, `get_creator`
+- **Skills:** `animatedwebs-site`, `animatedwebs-hero`, `animatedwebs-components`, `animatedwebs-style`, `animatedwebs-design`
+- **Commands:** listed above
 
-© Like a King Inc. — AnimatedWebs prompts are licensed per the [Terms](https://animatedwebs.com/terms).
+Full documentation: [animatedwebs.com/mcp](https://animatedwebs.com/mcp)
+
+AnimatedWebs content is licensed under the [Terms](https://animatedwebs.com/terms). [Privacy](https://animatedwebs.com/privacy)

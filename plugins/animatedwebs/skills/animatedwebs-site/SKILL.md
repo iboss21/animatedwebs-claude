@@ -5,7 +5,7 @@ description: Build a bold, premium, animated website or landing page with Animat
 
 # Build a website with AnimatedWebs
 
-AnimatedWebs (https://animatedwebs.com) sells prompts that build websites. Its MCP server (`animatedwebs`) lets you search the catalog and fetch a template's full build prompt.
+AnimatedWebs (https://animatedwebs.com) is a library of premium animated website templates. Its MCP server (`animatedwebs`) lets you search templates, fetch a template's full build brief, pull animated UI components and apply design styles.
 
 ## Steps
 
