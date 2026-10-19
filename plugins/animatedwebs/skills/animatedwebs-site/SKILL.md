@@ -5,12 +5,12 @@ description: "Build a complete, premium animated website or landing page from an
 
 # Build a website with AnimatedWebs
 
-AnimatedWebs (https://animatedwebs.com) is a library of more than 1,200 animated website templates, each with a live demo and a complete build prompt. The `animatedwebs` MCP server searches the library, returns a template's full build prompt, and supplies backgrounds, components and design systems.
+AnimatedWebs (https://animatedwebs.com) is a library of more than 1,400 animated website templates, each with a live demo and a complete build prompt. The `animatedwebs` MCP server searches the library, returns a template's full build prompt, and supplies backgrounds, components and design systems.
 
 ## Steps
 
 1. **Understand the brief.** Business name, what it offers, audience, mood, brand colours and the stack already in the repository (Next.js, Vite, Astro, plain HTML). Ask at most one question, and only if something essential is missing.
-2. **Find the right template.** Call `search_templates` with the business type and mood, for example "AI research platform, dark", "boutique hotel, calm" or "fintech, chrome". Prefer templates with a live demo. Show the top 3 with their live-demo links and let the user choose, or choose the best match if they asked you to decide.
+2. **Find the right template.** Call `search_templates` with the business type and mood, for example "AI research platform, dark", "boutique hotel, calm" or "fintech, chrome". Prefer templates with a live demo. For a specific trade, the industry pages at https://animatedwebs.com/industries list the closest matches (dentist, restaurant, law firm, hair salon and over 130 more). Show the top 3 with their live-demo links and let the user choose, or choose the best match if they asked you to decide.
 3. **Get the prompt.** Call `get_template_prompt` for the chosen slug. If it returns an access message, explain it plainly: Free templates are open to every account, and Pro templates come with Pro or a Prompt Pack (https://animatedwebs.com/pricing). Offer a Free template as an alternative.
 4. **Adapt without diluting.** Replace the template's brand, copy and palette with the user's. Keep its layout, typography, motion and quality bar. Use the user's own licensed media, or a background from `search_backgrounds`; never invent stock URLs.
 5. **Build it** in the user's stack, section by section, as the prompt describes.

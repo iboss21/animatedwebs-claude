@@ -2,6 +2,12 @@
 
 All notable changes to the AnimatedWebs plugin for Claude Code.
 
+## 1.2.2 · 2026-10-19
+
+### Changed
+- The library now has more than 1,400 templates; descriptions, badge and README updated.
+- The site skill points to the industry pages (https://animatedwebs.com/industries) when the brief names a trade.
+
 ## 1.2.1 · 2026-10-12
 
 ### Fixed

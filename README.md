@@ -5,8 +5,8 @@
 <p align="center">
   <a href="https://animatedwebs.com/mcp"><img src="assets/badges/claude-code.svg" alt="Claude Code plugin" height="28"></a>
   <a href="https://animatedwebs.com/mcp"><img src="assets/badges/mcp.svg" alt="MCP: 22 tools" height="28"></a>
-  <a href="https://animatedwebs.com/templates"><img src="assets/badges/templates.svg" alt="1,200+ templates" height="28"></a>
-  <a href=".claude-plugin/marketplace.json"><img src="assets/badges/version.svg" alt="Version 1.2.1" height="28"></a>
+  <a href="https://animatedwebs.com/templates"><img src="assets/badges/templates.svg" alt="1,400+ templates" height="28"></a>
+  <a href=".claude-plugin/marketplace.json"><img src="assets/badges/version.svg" alt="Version 1.2.2" height="28"></a>
   <a href="https://animatedwebs.com"><img src="assets/badges/status.svg" alt="Status: live" height="28"></a>
 </p>
 
@@ -31,7 +31,7 @@
 
 ## Overview
 
-AnimatedWebs is a library of more than 1,200 animated website templates, each with a live demo and a complete build prompt. This plugin connects Claude Code to that library through the AnimatedWebs MCP server and adds skills and commands that know how to use it.
+AnimatedWebs is a library of more than 1,400 animated website templates, each with a live demo and a complete build prompt. This plugin connects Claude Code to that library through the AnimatedWebs MCP server and adds skills and commands that know how to use it.
 
 Describe what you need. Claude finds the closest designs, shows you the live demos, and builds the one you choose into your project with its motion, typography and layout intact.
 
@@ -121,7 +121,7 @@ The server at `https://mcp.animatedwebs.com` exposes 22 tools. Every tool carrie
   </tr>
 </table>
 
-<p align="center"><a href="https://animatedwebs.com/templates"><b>Browse all 1,200+ templates →</b></a></p>
+<p align="center"><a href="https://animatedwebs.com/templates"><b>Browse all 1,400+ templates →</b></a></p>
 
 ## Plans
 
