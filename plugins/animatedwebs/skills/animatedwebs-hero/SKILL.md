@@ -6,7 +6,7 @@ description: "Give an existing website a cinematic hero section (looping video, 
 # Upgrade a hero with AnimatedWebs
 
 1. **Read the current site.** Open the home page and hero, and note the stack, fonts and brand colours.
-2. **Find directions.** Call `search_templates` with the brand mood plus "hero", for example "dark particle hero" or "calm water video hero". For a video hero, `search_backgrounds` lists ready-made cinematic loops. Show the top 3 with their live-demo or preview links.
+2. **Find directions.** Call `search` with kind `templates` and the brand mood plus "hero", for example "dark particle hero" or "calm water video hero". For a video hero, `search` with kind `backgrounds` lists ready-made cinematic loops. Show the top 3 with their live-demo or preview links.
 3. **Apply only the hero.** Call `get_template_prompt` (or `get_background` for a loop) and implement the hero part:
    - **Video hero:** full-bleed, muted, looping, inline video with a poster image and a gradient scrim for legible text.
    - **WebGL or shader hero:** implement it in code exactly as the prompt describes; no video file is needed.

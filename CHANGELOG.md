@@ -2,6 +2,12 @@
 
 All notable changes to the AnimatedWebs plugin for Claude Code.
 
+## 1.3.0 · 2026-11-02
+
+### Changed
+- The MCP server now lists 15 tools. One `search` tool (with `kind`, filters, an empty query to browse and a `cursor` for paging) replaces `search_templates`, `search_components`, `search_everything`, `search_backgrounds`, `search_styles` and `search_creators`. `list_categories` takes a `scope` and replaces `list_component_categories`. `get_account` replaces `get_design_workspace`. The old names still work when called.
+- All skills and commands use the new tools.
+
 ## 1.2.2 · 2026-10-19
 
 ### Changed

@@ -4,9 +4,9 @@
 
 <p align="center">
   <a href="https://animatedwebs.com/mcp"><img src="assets/badges/claude-code.svg" alt="Claude Code plugin" height="28"></a>
-  <a href="https://animatedwebs.com/mcp"><img src="assets/badges/mcp.svg" alt="MCP: 22 tools" height="28"></a>
+  <a href="https://animatedwebs.com/mcp"><img src="assets/badges/mcp.svg" alt="MCP: 15 tools" height="28"></a>
   <a href="https://animatedwebs.com/templates"><img src="assets/badges/templates.svg" alt="1,400+ templates" height="28"></a>
-  <a href=".claude-plugin/marketplace.json"><img src="assets/badges/version.svg" alt="Version 1.2.2" height="28"></a>
+  <a href=".claude-plugin/marketplace.json"><img src="assets/badges/version.svg" alt="Version 1.3.0" height="28"></a>
   <a href="https://animatedwebs.com"><img src="assets/badges/status.svg" alt="Status: live" height="28"></a>
 </p>
 
@@ -95,16 +95,18 @@ Ask in plain language. The right skill takes over:
 
 ## MCP tools
 
-The server at `https://mcp.animatedwebs.com` exposes 22 tools. Every tool carries MCP annotations (read-only, destructive, open-world) and an icon.
+The server at `https://mcp.animatedwebs.com` exposes 15 tools. Every tool carries MCP annotations (read-only, destructive, open-world) and an icon.
 
 | Area | Tools |
 |---|---|
-| Templates | `search_templates` · `get_template` · `get_template_prompt` · `list_categories` · `open_in_builder` · `request_template` |
-| UI Library | `search_components` · `list_component_categories` · `get_component` · `get_component_source` · `generate_component` · `refine_component` |
-| Cinematic Backgrounds | `search_backgrounds` · `get_background` |
-| Styles | `search_styles` · `get_style_reference` |
-| Design | `get_design_workspace` |
-| Account and community | `search_everything` · `get_account` · `get_pricing` · `search_creators` · `get_creator` |
+| Search | `search` (templates, components, backgrounds, styles, creators; `kind`, filters, empty query browses, `cursor` pages) · `list_categories` |
+| Templates | `get_template` · `get_template_prompt` · `open_in_builder` · `request_template` |
+| UI Library | `get_component` · `get_component_source` · `generate_component` · `refine_component` |
+| Cinematic Backgrounds | `get_background` |
+| Styles | `get_style_reference` |
+| Account and community | `get_account` (includes the Design workspace) · `get_pricing` · `get_creator` |
+
+Earlier versions listed `search_templates`, `search_components`, `search_everything`, `search_backgrounds`, `search_styles`, `search_creators`, `list_component_categories` and `get_design_workspace`. Those names still work when called but are no longer listed; see `docs/MCP-TOOLS.md` in the AnimatedWebs repository.
 
 ## Featured templates
 

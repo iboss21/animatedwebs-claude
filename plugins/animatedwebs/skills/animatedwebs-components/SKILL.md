@@ -5,7 +5,7 @@ description: "Add polished animated UI components (buttons, text effects, backgr
 
 # Animated UI components from AnimatedWebs
 
-1. **Find candidates.** Call `search_components` with what the user wants, for example "magnetic button", "text scramble" or "aurora background". `list_component_categories` shows everything available. Show the best 3 with their live preview links.
+1. **Find candidates.** Call `search` with kind `components` and what the user wants, for example "magnetic button", "text scramble" or "aurora background". `list_categories` with scope `components` shows the categories, and an empty query with `cursor` pages through everything. Show the best 3 with their live preview links.
 2. **Get the code.** Call `get_component` for details and `get_component_source` for the code. If the source requires Pro, say so plainly and offer `generate_component` instead.
 3. **Nothing fits?** Call `generate_component` with a clear description and the user's stack, then `refine_component` to iterate, for example "glassier", "slower hover" or "use brand colour #7d5bff".
 4. **Integrate cleanly.** Match the project's framework, styling system and naming. Keep focus states, a reduced-motion fallback and readable contrast.
