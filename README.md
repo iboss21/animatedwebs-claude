@@ -5,8 +5,8 @@
 <p align="center">
   <a href="https://animatedwebs.com/mcp"><img src="assets/badges/claude-code.svg" alt="Claude Code plugin" height="28"></a>
   <a href="https://animatedwebs.com/mcp"><img src="assets/badges/mcp.svg" alt="MCP: 15 tools" height="28"></a>
-  <a href="https://animatedwebs.com/templates"><img src="assets/badges/templates.svg" alt="1,400+ templates" height="28"></a>
-  <a href=".claude-plugin/marketplace.json"><img src="assets/badges/version.svg" alt="Version 1.3.0" height="28"></a>
+  <a href="https://animatedwebs.com/templates"><img src="assets/badges/templates.svg" alt="1,600+ templates" height="28"></a>
+  <a href=".claude-plugin/marketplace.json"><img src="assets/badges/version.svg" alt="Version 1.4.0" height="28"></a>
   <a href="https://animatedwebs.com"><img src="assets/badges/status.svg" alt="Status: live" height="28"></a>
 </p>
 
@@ -31,7 +31,7 @@
 
 ## Overview
 
-AnimatedWebs is a library of more than 1,400 animated website templates, each with a live demo and a complete build prompt. This plugin connects Claude Code to that library through the AnimatedWebs MCP server and adds skills and commands that know how to use it.
+AnimatedWebs is a library of more than 1,600 animated website templates, each with a complete build prompt and hundreds with a playable live demo. This plugin connects Claude Code to that library through the AnimatedWebs MCP server and adds skills and commands that know how to use it.
 
 Describe what you need. Claude finds the closest designs, shows you the live demos, and builds the one you choose into your project with its motion, typography and layout intact.
 
@@ -81,6 +81,8 @@ Ask in plain language. The right skill takes over:
 | `/animatedwebs:component <idea>` | Adds an animated UI component from the library, or generates one |
 | `/animatedwebs:style <mood>` | Applies a design system as tokens, theme and variables |
 | `/animatedwebs:design` | Connects your AnimatedWebs Design Studio workspace |
+| `/animatedwebs:save [item]` | Saves a template, component or background to your favourites, or lists what you saved |
+| `/animatedwebs:request [brief]` | Asks the AnimatedWebs team for a template the library does not have, or checks your earlier requests |
 
 ## Skills
 
@@ -99,14 +101,16 @@ The server at `https://mcp.animatedwebs.com` exposes 15 tools. Every tool carrie
 
 | Area | Tools |
 |---|---|
-| Search | `search` (templates, components, backgrounds, styles, creators; `kind`, filters, empty query browses, `cursor` pages) · `list_categories` |
-| Templates | `get_template` · `get_template_prompt` · `open_in_builder` · `request_template` |
-| UI Library | `get_component` · `get_component_source` · `generate_component` · `refine_component` |
+| Search | `search_catalog` (templates, components, backgrounds, styles, creators; `kind`, filters, empty query browses, `cursor` pages) · `list_categories` |
+| Templates | `get_template` (details; `include_prompt` adds the build prompt) · `open_builder` (Lovable, v0 and Bolt links) · `request_template` · `manage_request` |
+| UI Library | `get_component` (details; `include_source` adds the code) · `generate_component` · `refine_component` |
 | Cinematic Backgrounds | `get_background` |
 | Styles | `get_style_reference` |
-| Account and community | `get_account` (includes the Design workspace) · `get_pricing` · `get_creator` |
+| Account and community | `get_account` (plan, usage, your items, the Design workspace) · `get_pricing` · `get_creator` · `save_item` |
 
-Earlier versions listed `search_templates`, `search_components`, `search_everything`, `search_backgrounds`, `search_styles`, `search_creators`, `list_component_categories` and `get_design_workspace`. Those names still work when called but are no longer listed; see `docs/MCP-TOOLS.md` in the AnimatedWebs repository.
+The server also offers five MCP prompts: `build_animated_site`, `upgrade_hero`, `add_ui_component`, `generate_ui` and `design_with_animatedwebs`.
+
+Earlier versions listed `search`, `get_template_prompt`, `get_component_source`, `open_in_builder`, `get_request_status`, `list_my_items`, `search_templates`, `search_components`, `search_everything`, `search_backgrounds`, `search_styles`, `search_creators`, `list_component_categories` and `get_design_workspace`. Those names still work when called but are no longer listed; see `docs/MCP-TOOLS.md` in the AnimatedWebs repository.
 
 ## Featured templates
 
@@ -123,7 +127,7 @@ Earlier versions listed `search_templates`, `search_components`, `search_everyth
   </tr>
 </table>
 
-<p align="center"><a href="https://animatedwebs.com/templates"><b>Browse all 1,400+ templates →</b></a></p>
+<p align="center"><a href="https://animatedwebs.com/templates"><b>Browse all 1,600+ templates →</b></a></p>
 
 ## Plans
 

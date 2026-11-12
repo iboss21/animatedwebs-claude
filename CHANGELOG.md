@@ -2,6 +2,19 @@
 
 All notable changes to the AnimatedWebs plugin for Claude Code.
 
+## 1.4.0 · 2026-11-11
+
+### Changed
+- Skills and commands use the tool names the MCP server lists today: `search_catalog` replaces `search`, `get_template` with `include_prompt` replaces `get_template_prompt`, `get_component` with `include_source` replaces `get_component_source`, and `open_builder` replaces `open_in_builder`. `list_categories` takes `kind`. The old names still work when called.
+- The site and hero skills use the `technique` and `templateKind` filters for 3D and WebGL briefs, and check the plan with `get_account` before a Pro prompt spends a Prompt Pack credit.
+- The library now has more than 1,600 templates; descriptions, badge and README updated.
+- README tool table matches the 15 tools the server lists and names its five MCP prompts.
+
+### Added
+- `/animatedwebs:save` saves a template, component or background to your favourites, or lists them, through `save_item`.
+- `/animatedwebs:request` sends a template request with `request_template` and follows it up with `manage_request`.
+- The site skill offers `open_builder` to start a template in Lovable, v0 or Bolt.
+
 ## 1.3.0 · 2026-11-02
 
 ### Changed
