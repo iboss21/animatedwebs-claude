@@ -2,6 +2,11 @@
 
 All notable changes to the AnimatedWebs plugin for Claude Code.
 
+## 1.5.0 · 2026-11-14
+
+### Added
+- `animatedwebs-gradients` skill and `/animatedwebs:gradient` command: live animated WebGL gradient backgrounds from the free AnimatedWebs Gradient Studio (16 styles, live contrast check, HTML, React and CSS export), integrated behind a hero with a CSS fallback and readable text.
+
 ## 1.4.0 · 2026-11-11
 
 ### Changed

@@ -78,6 +78,7 @@ Ask in plain language. The right skill takes over:
 | `/animatedwebs:browse <style>` | Lists matching templates with links to their live demos |
 | `/animatedwebs:hero <idea>` | Replaces the current hero with a cinematic one |
 | `/animatedwebs:background <mood>` | Adds a cinematic video background to the hero |
+| `/animatedwebs:gradient <style>` | Adds a live animated WebGL gradient from Gradient Studio behind the hero |
 | `/animatedwebs:component <idea>` | Adds an animated UI component from the library, or generates one |
 | `/animatedwebs:style <mood>` | Applies a design system as tokens, theme and variables |
 | `/animatedwebs:design` | Connects your AnimatedWebs Design Studio workspace |
@@ -91,6 +92,7 @@ Ask in plain language. The right skill takes over:
 | `animatedwebs-site` | build a full website or landing page |
 | `animatedwebs-hero` | create or upgrade a hero section |
 | `animatedwebs-backgrounds` | add a video or motion background |
+| `animatedwebs-gradients` | add a live WebGL gradient background from Gradient Studio |
 | `animatedwebs-components` | add animated UI components |
 | `animatedwebs-style` | apply a visual style or design system |
 | `animatedwebs-design` | work in Design Studio |
