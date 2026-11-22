@@ -6,7 +6,7 @@
   <a href="https://animatedwebs.com/mcp"><img src="assets/badges/claude-code.svg" alt="Claude Code plugin" height="28"></a>
   <a href="https://animatedwebs.com/mcp"><img src="assets/badges/mcp.svg" alt="MCP: 15 tools" height="28"></a>
   <a href="https://animatedwebs.com/templates"><img src="assets/badges/templates.svg" alt="1,600+ templates" height="28"></a>
-  <a href=".claude-plugin/marketplace.json"><img src="assets/badges/version.svg" alt="Version 1.4.0" height="28"></a>
+  <a href=".claude-plugin/marketplace.json"><img src="assets/badges/version.svg" alt="Version 1.5.0" height="28"></a>
   <a href="https://animatedwebs.com"><img src="assets/badges/status.svg" alt="Status: live" height="28"></a>
 </p>
 
