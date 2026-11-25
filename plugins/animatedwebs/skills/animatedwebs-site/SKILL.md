@@ -5,7 +5,7 @@ description: "Build a complete, premium animated website or landing page from an
 
 # Build a website with AnimatedWebs
 
-AnimatedWebs (https://animatedwebs.com) is a library of more than 1,600 animated website templates, each with a complete build prompt and many with a live demo. The `animatedwebs` MCP server searches the library, returns a template's full build prompt, and supplies backgrounds, components and design systems.
+AnimatedWebs (https://animatedwebs.com) is a library of more than 1,700 animated website templates, each with a complete build prompt and many with a live demo. The `animatedwebs` MCP server searches the library, returns a template's full build prompt, and supplies backgrounds, components and design systems.
 
 ## Steps
 

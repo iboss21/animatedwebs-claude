@@ -2,6 +2,12 @@
 
 All notable changes to the AnimatedWebs plugin for Claude Code.
 
+## 1.5.1 · 2026-11-25
+
+### Changed
+- The library now has more than 1,700 templates; descriptions, badge and README updated.
+- The components skill knows the UI Library includes AnimatedWebs originals (tagged "animatedwebs original") and product UI such as pricing tables, navigation, command palettes, forms and data tables.
+
 ## 1.5.0 · 2026-11-14
 
 ### Added
